@@ -9,7 +9,7 @@ import Arena from './Components/Arena';
 import LoadingIndicator from './Components/LoadingIndicator';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'CryptoTuru';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -133,8 +133,8 @@ const renderContent = () => {
     return (
       <div className="connect-wallet-container">
 					<img
-						src="https://giffiles.alphacoders.com/155/15561.gif"
-						alt="callofduty Gif"
+						src="https://c.tenor.com/nYNuV-XiNwEAAAAC/worms-artillery-tactica.gif"
+						alt="worm loading Gif"
 					/>
 					<button
           className="cta-button connect-wallet-button"
@@ -157,8 +157,8 @@ const renderContent = () => {
 		<div className="App">
 			<div className="container">
 				<div className="header-container">
-					<p className="header gradient-text">⚔️ Warzone ⚔️</p>
-					<p className="sub-text">Team up to protect the Warzone!</p>
+					<p className="header gradient-text">⏱🚀💣🪦 WormZone 🪦🔫🪓🥊</p>
+					<p className="sub-text">Gather the best team and defeat the boss!!</p>
 					{renderContent()}
 				</div>
 				<div className="footer-container">
@@ -168,7 +168,7 @@ const renderContent = () => {
 						href={TWITTER_LINK}
 						target="_blank"
 						rel="noreferrer"
-					>{`built with @${TWITTER_HANDLE}`}</a>
+					>{`Contact me at @${TWITTER_HANDLE}`}</a>
 				</div>
 			</div>
 		</div>

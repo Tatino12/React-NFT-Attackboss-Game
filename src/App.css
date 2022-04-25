@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap');
+
 .App {
   height: 100vh;
   background-color: #0d1116;
@@ -19,13 +22,14 @@
 
 .header {
   margin: 0;
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 80px;
+  font-family: 'Permanent Marker', cursive;
   color: white;
 }
 
 .sub-text {
   font-size: 25px;
+  font-family: 'Permanent Marker', cursive;
   color: white;
 }
 

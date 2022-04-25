@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   color: white;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .select-character-container .loading {

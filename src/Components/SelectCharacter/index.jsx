@@ -126,7 +126,7 @@ const renderCharacters = () =>
   
 return (
   <div className="select-character-container">
-    <h2>Mint Your Hero. Choose wisely.</h2>
+    <h2>Mint Your WormHero. Choose wisely.</h2>
     {/* Only show this when there are characters in state */}
     {characters.length > 0 && (
       <div className="character-grid">{renderCharacters()}</div>
@@ -138,7 +138,7 @@ return (
         <LoadingIndicator />
         <p>Minting In Progres...</p>
       </div>
-      <img src="https://media2.giphy.com/media/61tYloUgq1eOk/giphy.gif?cid=ecf05e47dg95zbpabxhmhaksvoy8h526f96k4em0ndvx078s&rid=giphy.gif&ct=g" 
+      <img src="https://c.tenor.com/UZacyI4MaJIAAAAi/worms-ejercicio.gif" 
         alt="Minting loading indicator"
         />
     </div>

@@ -72,7 +72,7 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
     console.log(`AttackComplete: Boss Hp: ${bossHp} Player Hp: ${playerHp}`);
     
     //Update both player and boss Hp
-    //newBossHpy y newPlayerHplo usaremos para actualizar el estado de nuestro jefe y nuestro personaje NFT
+    //newBossHpy y newPlayerHp lo usaremos para actualizar el estado de nuestro jefe y nuestro personaje NFT
     //En React, useStatenos permite obtener el valor de estado anterior antes de establecer uno nuevo!
     setBoss((prevState) => {
       return { ...prevState, hp:bossHp };
@@ -100,7 +100,7 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
     {/* Add your toast HTML right here */}
     {boss && characterNFT && (
     <div id="toast" className={showToast ? 'show' : ''}>
-      <div id="desc">{`💥 ${boss.name} was hit for ${characterNFT.attackDamage}!`}</div>
+      <div id="desc">{`🧨 ${boss.name} was hit for ${characterNFT.attackDamage}!`}</div>
     </div>
     )}
 
@@ -126,7 +126,7 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
         {attackState === 'attacking' && (
         <div className="loading-indicator">
           <LoadingIndicator />
-          <p>Attacking ⚔️</p>
+          <p>Attacking 🚀</p>
         </div>
         )}
       </div>
@@ -151,7 +151,7 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
               </div>
             </div>
             <div className="stats">
-              <h4>{`⚔️ Attack Damage: ${characterNFT.attackDamage}`}</h4>
+              <h4>{`💣 Attack Damage: ${characterNFT.attackDamage}`}</h4>
             </div>
           </div>
         </div>
