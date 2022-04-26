@@ -136,7 +136,7 @@ return (
     <div className="loading">
       <div className="indicator">
         <LoadingIndicator />
-        <p>Minting In Progres...</p>
+        <p>Minting In Progress...</p>
       </div>
       <img src="https://c.tenor.com/UZacyI4MaJIAAAAi/worms-ejercicio.gif" 
         alt="Minting loading indicator"
